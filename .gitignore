@@ -1,0 +1,14 @@
+/Debug
+/Release
+/Emscripten
+/Planner/Debug
+/Planner/Emscripten
+/Planner/Release
+
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+
+/Web/bower_components

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planner</title>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+
+  <script src="js/Planner.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <div id="container" class="container col-lg-5">
+    <div class="page-header">
+      <h1>Planner <small>powered by <i><a href="https://kripken.github.io/emscripten-site/" target="_blank">emscripten</a></i></small></h1>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h3>Things to do:</h3>
+
+        <div class="todos-list">
+          <div class="input-group">
+            <input id="todo-description" type="text" class="form-control" placeholder="Description...">
+            <span class="input-group-btn">
+              <button id="add-todo-button" class="btn btn-default" type="button">Add</button>
+            </span>
+          </div>
+
+          <ul id="todo-items" class="list-group"></ul>
+        </div>
+      </div>
+      <div class="panel-footer">
+        <a href="https://www.meetup.com/Macedonian-C-C-User-Group/" target="_blank">Macedonian C++ Users Group</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="templates" style="display:none">
+
+    <li id="todo-item-template" class="list-group-item">
+      <input class="done-flag" type="checkbox" />
+      <span class="description"></span>
+    </li>
+
+  </div>
+
+  <script src="js/main.js" type="text/javascript"></script>
+
+</body>
+</html>

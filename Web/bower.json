@@ -1,0 +1,24 @@
+{
+  "name": "emscripten-demo-planner-web",
+  "authors": [
+    "Renata Gjoreska (renata.gjoreska@gmail.com)"
+  ],
+  "description": "emscripten showcase",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
+  }
+}
